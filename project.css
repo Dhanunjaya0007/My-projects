@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.table table,td{
+    height: 70%;
+    border: 3px solid black;
+    background-color:rgb(131, 127, 255);
+    font-size: larger;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    padding: 30px;
+    margin: 30px;
+    border-collapse: collapse;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 2);
+}
+
+.table th{
+    background-color: red;
+    padding: 30px;
+    margin: 30px;
+    
+}
+
+
+.table th:hover{
+    background-color: rgb(226, 180, 43);
+    font-weight: bolder;
+    font-size: larger;
+    
+}
+
+.table td:hover{
+    background-color: lightcoral;
+    font-weight: bold;
+    /* font-size: 25px;  */
+}
+
+button{
+    /* height: 30px;
+    width: 100px;
+    font-size: large;
+    background-color: lightblue;
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.1);
+    cursor: pointer;*/
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 700px; 
+    display: inline-block; 
+    padding: 15px 32px; 
+    background-color: #4CAF50; 
+    color: white; 
+    text-align: center; 
+    text-decoration: none; 
+    font-size: 16px; 
+    border: none; 
+    border-radius: 12px; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease; /* Smooth transition */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 1);
+
+}
+
+button:hover {
+    background-color: cyan;
+    font-weight: bold;
+
+}
+
+
+
+
+
